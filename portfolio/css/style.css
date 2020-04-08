@@ -160,8 +160,8 @@ body {
 }
 
 .filter .current {
-  background-color: #696969;
-  border-color: #696969;
+  background-color: #505050;
+  border-color: #505050;
   color: #fff;
 }
 
@@ -293,8 +293,8 @@ body {
 }
 
 #navigation {
-  background-color: #696969;
-  padding: 20px 10px;
+  background-color: #505050;
+  padding: 10px 15px;
   z-index: 100;
   width: 100%;
 }
