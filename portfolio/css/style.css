@@ -117,12 +117,19 @@ body {
   margin-top: 20px;
   border: 1px solid #fff;
   border-radius: 2px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 .contactButton:hover {
   text-decoration: none;
   color: #696969;
   background-color: #fff;
 }
+
+.contactButton:active {
+  transform: translate(0, 0.2rem);
+  box-shadow: 0 0.5rem rgba(105, 105, 105, 0.2);
+}
+
 .filter a {
   color: #bdc3c7;
   border: 1px solid #bdc3c7;
