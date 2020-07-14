@@ -64,6 +64,9 @@ body {
   background: linear-gradient(89deg, #4568dc 0%, #492f65 50%, #b06ab3 100%);
   color: #fff;
 }
+.row {
+  align-items: center;
+}
 .item {
   text-align: center;
 }
