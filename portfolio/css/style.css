@@ -139,6 +139,10 @@ body {
   padding: 10px 18px;
   display: block;
 }
+a:hover {
+  filter: brightness(0.5);
+  text-decoration: none;
+}
 .filter li {
   display: inline-block;
   padding: 5px;
@@ -302,14 +306,17 @@ body {
   .titleMessage .heading .main {
     font-size: 35px;
   }
+
   .titleMessage .heading .sub {
     font-size: 18px;
   }
+
   .slides-navigation a.next,
   .slides-navigation a.prev {
     background-size: 35px;
     margin-top: 10px;
   }
+
   .items .item {
     margin-left: 10px;
     margin-right: 10px;
