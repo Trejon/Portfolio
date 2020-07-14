@@ -163,6 +163,13 @@ body {
 }
 .itemsContainer {
   width: 100%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
 .items li img {
   width: 100%;
@@ -311,3 +318,4 @@ body {
     margin-right: 10px;
   }
 }
+
