@@ -328,9 +328,7 @@ a:hover {
     margin-right: 10px;
   }
 
-  #contact .col-md-12 {
-    display: flex;
-    flex-direction: column;
+  .contactButton {
+    padding: 10px 7px;
   }
-
 }
