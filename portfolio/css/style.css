@@ -135,7 +135,9 @@ body {
   transform: translate(0, 0.2rem);
   box-shadow: 0 0.5rem rgba(105, 105, 105, 0.2);
 }
-
+#filters {
+  padding-left: 0;
+}
 .filter a {
   color: #bdc3c7;
   border: 1px solid #bdc3c7;
@@ -325,5 +327,10 @@ a:hover {
     margin-left: 10px;
     margin-right: 10px;
   }
-}
 
+  #contact .col-md-12 {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
