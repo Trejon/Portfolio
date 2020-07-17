@@ -314,6 +314,7 @@ a:hover {
 
 .fancybox-caption__body h3 {
   font-size: 1.6rem;
+  padding-top: 50%;
 }
 
 /* Media Query: Large Smartphone (Vertical) */
