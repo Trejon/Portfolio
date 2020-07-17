@@ -300,10 +300,20 @@ a:hover {
   display: inline;
   padding: 0.3rem;
   padding-bottom: 0;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .innerText {
   color: #fff;
+}
+
+
+.fancybox-image {
+  width: 100%;
+  height: 100%;
+}
+
+.fancybox-caption__body h3 {
+  font-size: 1.6rem;
 }
 
 /* Media Query: Large Smartphone (Vertical) */
@@ -311,19 +321,23 @@ a:hover {
   .titleMessage .heading .main {
     font-size: 35px;
   }
+
   .titleMessage .heading .sub {
     font-size: 20px;
     padding-top: 35px;
   }
+
   .slides-navigation a.next,
   .slides-navigation a.prev {
     background-size: 35px;
     margin-top: 10px;
   }
+
   .items .item {
     margin-left: 10px;
     margin-right: 10px;
   }
+
   .contactButton {
     padding: 10px 7px;
   }
