@@ -30,6 +30,29 @@
       type="image/png"
       href="https://img.icons8.com/dusk/2x/t.png"
     />
+    
+    <script>
+      (function(h,o,u,n,d) {
+        h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+        d=o.createElement(u);d.async=1;d.src=n
+        n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
+      })(window,document,'script','https://www.datadoghq-browser-agent.com/datadog-rum-v4.js','DD_RUM')
+      DD_RUM.onReady(function() {
+        DD_RUM.init({
+          clientToken: 'pube4fb6708b4aedc9fe7a879bc61f64e02',
+          applicationId: '27884b03-1754-4609-ae9f-85d6fd81e6dc',
+          site: 'datadoghq.com',
+          service:'portfolio',
+          // Specify a version number to identify the deployed version of your application in Datadog 
+          // version: '1.0.0',
+          sampleRate: 100,
+          trackInteractions: true,
+          defaultPrivacyLevel: 'mask-user-input'
+        });
+    
+        DD_RUM.startSessionReplayRecording();
+      })
+    </script>
 
     <script
       async
